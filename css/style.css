@@ -1,0 +1,23 @@
+
+
+#div_tablero {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+  }
+  #tablero {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+  }
+  .tablero tr{
+      height: 33%;
+  }
+  .tablero tr td {
+    width: 33%;
+    border: solid 1px black;
+  }
+  img{
+    
+    height: 100%;
+}
