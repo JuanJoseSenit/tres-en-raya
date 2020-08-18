@@ -16,3 +16,5 @@ ___
 Existen varias alternativas para ejecutar el juego:
 1. Clonar el repositorio y **ejecutar** el **index.html**
 2. Aprovechando la herramienta de GitHub Pages desde el siguiente enlace:
+
+> https://juanjosesenit.github.io/tres-en-raya/
