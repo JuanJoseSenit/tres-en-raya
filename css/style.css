@@ -1,23 +1,137 @@
-
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  border-left: solid 10px #28bfd3;
+  border-bottom: solid 6px #28bfd3;
+  padding-left: 1%;
+  padding-bottom: 5px;
+}
+header {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
 
 #div_tablero {
     width: 80%;
     height: 70vh;
     margin: auto;
-  }
-  #tablero {
+}
+#tablero {
     width: 100%;
     height: 100%;
     border: solid 1px black;
-  }
-  .tablero tr{
+}
+.tablero tr{
       height: 33%;
-  }
-  .tablero tr td {
+}
+.tablero tr td {
     width: 33%;
     border: solid 1px black;
+}
+.tdTablero{
+  text-align: center;
+}
+img{
+    
+    height: 70%;
+}
+#ronda_resultado_boton {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#ronda_jugador {
+  font-size: 20px;
+}
+#div_boton_reiniciar {
+  height: 4vh;
+  width: 25%;
+  text-align: center;
+  margin: auto;
+}
+#boton_reiniciar {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #28bfd3;
+}
+#boton_reiniciar:hover {
+  cursor: pointer;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #28bfd3;
+  padding: 7px 5%;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 790px) {
+  #boton_reiniciar {
+    font-size: 14px;
+  }
+}
+@media (max-width: 670px) {
+  h1 {
+    padding-top: 3%;
+    font-size: 30px;
+  }
+  #div_tablero {
+    height: 60vh;
+  }
+  #div_boton_reiniciar {
+    margin: 3vh auto;
+    width: 40%;
+  }
+  footer {
+    font-size: 13px;
+  }
+}
+@media (max-width: 440px) {
+  #div_tablero{
+    height: 52vh;
   }
   img{
-    
-    height: 100%;
+    height: 50%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 376px) {
+  header {
+    height: 10vh;
+  }
+  h1 {
+    padding-top: 5%;
+    border-left: solid 5px #28bfd3;
+    border-bottom: solid 3px #28bfd3;
+  }
+  #div_boton_reiniciar {
+    margin: 4vh auto;
+  }
+  #ronda_jugador {
+    font-size: 14px;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  #div_boton_reiniciar {
+    width: 60%;
+  }
 }
